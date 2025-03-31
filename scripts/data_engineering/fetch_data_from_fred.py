@@ -67,15 +67,6 @@ for state, abbr in state_abbreviations.items():
         csv_button.click()
         time.sleep(3)  # Wait for download to complete
 
-        # Find the latest downloaded file
-        # files = [f for f in os.listdir(download_dir) if f.endswith(".csv")]
-        # latest_file = max(files, key=lambda f: os.path.getctime(os.path.join(download_dir, f)))
-
-        # # Move it to the output directory and rename it
-        # new_filename = f"income_{state}.csv"
-        # shutil.move(os.path.join(download_dir, latest_file), os.path.join(output_dir, new_filename))
-        # print(f"✅ Downloaded {new_filename}")
-
     except Exception as e:
         print(f"❌ Failed for {state}: {e}")
 

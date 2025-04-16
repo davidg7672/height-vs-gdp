@@ -1,0 +1,28 @@
+{
+    "release": {
+        "id": "acs2023_1yr",
+        "name": "ACS 2023 1-year",
+        "years": "2023"
+    },
+    "tables": {
+        "B05012": {
+            "columns": {
+                "B05012001": {
+                    "indent": 0,
+                    "name": "Total:"
+                },
+                "B05012002": {
+                    "indent": 1,
+                    "name": "Native"
+                },
+                "B05012003": {
+                    "indent": 1,
+                    "name": "Foreign-born"
+                }
+            },
+            "denominator_column_id": "B05012001",
+            "title": "Nativity in the United States",
+            "universe": "Total population in the United States"
+        }
+    }
+}

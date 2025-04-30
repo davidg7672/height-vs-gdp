@@ -27,5 +27,5 @@ ggplot(data, aes(x = GDP_adjusted, y = `Average Height (inches)`, color = GDP_ad
       legend.title = element_text(size = 12, face = "bold", family = "Arial"),  # Legend bold
       legend.text = element_text(size = 11, family = "Arial")  # Legend values
     )
-
+s
 
